@@ -1,27 +1,27 @@
-const homePageBlogs = [
+const homePageBlogsArray = [
     {
-        id: 1,
+        // id: 1,
         DSOrA:'Algorithm',
-        link: '#',
+        Link: '#',
         Header: 'Reverse a String',
-        description: 'Take the string and reverse it using a decrementing for loop.',
+        Description: 'Take the string and reverse it using a decrementing for loop.',
 
     },
     {
-        id: 2,
+        // id: 2,
         DSOrA:'Algorithm',
-        link: '#',
+        Link: '#',
         Header: 'Palindrome',
-        description: 'Take the string, reverse it, and compare it to the original input.',
+        Description: 'Take the string, reverse it, and compare it to the original input.',
 
     },{
-        id: 3,
+        // id: 3,
         DSOrA:'Algorithm',
-        link: '#',
+        Link: '#',
         Header: 'Integer Reversal',
-        description: 'Take an integer and reverse it. ',
+        Description: 'Take an integer and reverse it. ',
 
     }
 ]
 
-export default homePageBlogs;
+export default homePageBlogsArray;

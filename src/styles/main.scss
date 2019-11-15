@@ -39,6 +39,39 @@
             }
         }
     }
+
+    .homepage-body {
+        section {
+            background: whitesmoke;
+            border-radius: 8px;
+            width: 70%;
+            margin: 5% auto;
+            padding: 3%;
+
+            article {
+                .header {
+                    a {
+                        font-weight: bold;
+                        color: black;
+                    }
+                }
+                .type{
+                    p{
+                        font-size: 1rem;
+                        font-weight: 300;
+                        color: #bbbbbb;
+                    }
+                }
+                .description{
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+
+        padding-bottom: 5%;
+    }
 }
 
 /* Large Devices, Wide Screens */
