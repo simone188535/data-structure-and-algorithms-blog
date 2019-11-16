@@ -21,7 +21,7 @@ const HomePage = () => {
                         <div className="description">
                             <p>Goal: {Description}</p>
                         </div>
-                        <hr/>
+                        <hr />
                     </article>
                 </section>
             );
@@ -31,7 +31,7 @@ const HomePage = () => {
     return (
         <div className="homepage-container">
             <div className="homepage-hero vh-100">
-                <Jumbotron fluid>
+                <Jumbotron fluid >
                     <Container className="hero-text-container">
                         <h1>Data Structure<br /> and Algorithm</h1>
                         <p>As javascript becomes more of a staple in software development, I find it increasingly important to document common software development problems in the language its self.
@@ -41,9 +41,9 @@ const HomePage = () => {
                     </Container>
                 </Jumbotron>
             </div>
-            <div className="homepage-body">
+            <Container className="homepage-body">
                 {mapBlog()}
-            </div>
+            </Container>
         </div>);
 
 }

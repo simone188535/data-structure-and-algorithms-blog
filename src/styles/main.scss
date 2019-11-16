@@ -4,6 +4,13 @@
     font-family: 'Open Sans', Tahoma, sans-serif;
 }
 
+//vars
+$black: #181818;
+$white: whitesmoke;
+$gray: #bbbbbb;
+$light-blue: #4e8fb8;
+$purple: #9839EA;
+
 .homepage-container {
     background: #181818;
 
@@ -13,8 +20,8 @@
         .jumbotron {
 
             // background-color: transparent;
-            background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 24, 0.3)), to(#181818)), url(../images/background3.jpg);
-            background: linear-gradient(to bottom, rgba(24, 24, 24, 0.3), #181818), url(../images/background3.jpg);
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 24, 0.3)), to($black)), url(../images/background3.jpg);
+            background: linear-gradient(to bottom, rgba(24, 24, 24, 0.3), $black), url(../images/background3.jpg);
             height: 100%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -23,7 +30,7 @@
 
             .hero-text-container {
                 text-align: center;
-                color: whitesmoke;
+                color: $white;
 
                 h1 {
                     font-weight: bold;
@@ -42,7 +49,7 @@
 
     .homepage-body {
         section {
-            background: whitesmoke;
+            background: $white;
             border-radius: 8px;
             width: 70%;
             margin: 5% auto;
@@ -52,18 +59,20 @@
                 .header {
                     a {
                         font-weight: bold;
-                        color: black;
+                        color: $black;
                     }
                 }
-                .type{
-                    p{
+
+                .type {
+                    p {
                         font-size: 1rem;
                         font-weight: 300;
-                        color: #bbbbbb;
+                        color: $gray;
                     }
                 }
-                .description{
-                    p{
+
+                .description {
+                    p {
                         font-size: 1.3rem;
                     }
                 }
@@ -71,6 +80,43 @@
         }
 
         padding-bottom: 5%;
+    }
+}
+
+.all-article-page-container {
+    background: #201c29;
+    // background: $white;
+    padding: 10% 0%;
+
+    .header{
+        .home-link{
+            font-size: 1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            // text-decoration: none;
+            letter-spacing: .6px;
+            a{
+                color: $purple;
+                &:hover{
+                    color: $gray;
+                    text-decoration: none;
+                }
+            }
+        }
+        .main-head{
+            font-size: 3rem;
+            font-weight: bold;
+            line-height: 2;
+            color: $white;
+        }
+    }
+    .article-section {
+        // height: 100%;
+        background: white;
+        // width: 60%;
+        margin-top: 1%;
+        border-radius: 8px;
+        padding: 5%;
     }
 }
 
