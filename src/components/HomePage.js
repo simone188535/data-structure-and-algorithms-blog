@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import _ from 'lodash';
-import homePageBlogsArray from '../js/all-blocks';
+import homePageBlogsArray from '../js/allBlogs';
 
 const HomePage = () => {
 

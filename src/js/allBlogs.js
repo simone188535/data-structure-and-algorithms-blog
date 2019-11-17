@@ -1,6 +1,5 @@
 const homePageBlogsArray = [
     {
-        // id: 1,
         DSOrA:'Algorithm',
         Link: '#',
         Header: 'Reverse a String',
@@ -8,14 +7,13 @@ const homePageBlogsArray = [
 
     },
     {
-        // id: 2,
         DSOrA:'Algorithm',
         Link: '#',
         Header: 'Palindrome',
         Description: 'Take the string, reverse it, and compare it to the original input.',
 
-    },{
-        // id: 3,
+    },
+    { 
         DSOrA:'Algorithm',
         Link: '#',
         Header: 'Integer Reversal',

@@ -20,8 +20,8 @@ $purple: #9839EA;
         .jumbotron {
 
             // background-color: transparent;
-            background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 24, 0.3)), to($black)), url(../images/background3.jpg);
-            background: linear-gradient(to bottom, rgba(24, 24, 24, 0.3), $black), url(../images/background3.jpg);
+            background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 24, 0.2)), to($black)), url(../images/background3.jpg);
+            background: linear-gradient(to bottom, rgba(24, 24, 24, 0.2), $black), url(../images/background3.jpg);
             height: 100%;
             background-size: cover;
             background-repeat: no-repeat;
@@ -113,7 +113,7 @@ $purple: #9839EA;
     .article-section {
         // height: 100%;
         background: white;
-        // width: 60%;
+        width: 70%;
         margin-top: 1%;
         border-radius: 8px;
         padding: 5%;
