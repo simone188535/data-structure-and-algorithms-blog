@@ -7,13 +7,17 @@ const HomePage = () => {
 
     const mapBlog = () => {
 
+        let totalBlogs = homePageBlogsArray.length;
+
         let homePageBlogs = _.map(homePageBlogsArray, (value, key) => {
+
             let { DSOrA, Link, Header, Description } = value;
+
             return (
                 <section key={key}>
                     <article>
                         <h3 className="header">
-                            <a href={Link}>{Header}</a>
+                            <a href={Link}>Entry {totalBlogs--}: {Header}</a>
                         </h3>
                         <div className="type">
                             <p>Type: {DSOrA}</p>
@@ -24,6 +28,7 @@ const HomePage = () => {
                         <hr />
                     </article>
                 </section>
+
             );
         });
         return homePageBlogs;
