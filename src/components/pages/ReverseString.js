@@ -49,7 +49,7 @@ const ReverseString = () => {
                             <span>   let reversed = ' ';</span><br />
                             <span>   for (let i = str.length - 1; i >= 0; i--) &#123;</span><br />
                             <span>        reversed+=str[i]; </span><br />
-                            <span>   &#125;</span>
+                            <span>   &#125;</span><br/>
                             <span>   return reversed;</span><br />
                             &#125;</p>
                         <p>{'// Tests for Function:'}</p>
